@@ -1,6 +1,8 @@
 {
   // Enable the ESlint flat config support
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
+
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
